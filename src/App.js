@@ -1,9 +1,9 @@
 import './App.css';
-import JoinForm from './form/JoinForm';
+import JoinFormContainer from './form/JoinFormContainer';
 
 function App() {
   return (
-    <JoinForm />
+    <JoinFormContainer />
   );
 }
 
