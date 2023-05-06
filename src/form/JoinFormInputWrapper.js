@@ -1,5 +1,5 @@
 import React from 'react';
-import { JoinFormInputWrapperstyled, JoinFormInputTitle } from './JoinFormWrapper';
+import { JoinFormInputWrapperstyled, JoinFormInputTitleStyled } from './_styled';
 
 export default function JoinFormInputWrapper() {
     const list = [
@@ -13,7 +13,7 @@ export default function JoinFormInputWrapper() {
         <>
         {list.map((idx) => (
             <JoinFormInputWrapperstyled>
-                <JoinFormInputTitle key={idx}>{idx.title}</JoinFormInputTitle>
+                <JoinFormInputTitleStyled key={idx}>{idx.title}</JoinFormInputTitleStyled>
                 <input type={idx.type} placeholder={idx.placeholder}/>
             </JoinFormInputWrapperstyled>
             ))}
