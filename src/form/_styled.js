@@ -40,5 +40,18 @@ export const JoinFormInputWrapperstyled = styled.div`
 `
 export const JoinFormInputTitleStyled = styled.div`
     fotn-size: 16px;
-    margin-bottom: 4px;
+`
+export const InputTextWrapperStyled = styled.div`
+    display: flex;
+    flexDirection: row;
+    gap: 10px;
+`
+export const EssectialTextStyled = styled.span`
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+export const AsteriskTextStyled = styled.span`
+    color: red;
 `
